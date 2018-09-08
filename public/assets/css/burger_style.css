@@ -1,0 +1,196 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-image: url("http://www.flamersgrill.com/wp-content/uploads/2017/07/Burger-bg.jpg");
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    margin-top:50px;
+}
+
+#box-1{
+    width:65%;
+    margin-left:18%;
+    border:solid 2px;
+    padding:40px;
+    /* background-color: yellow; */
+    background-image: url("https://cdn.dribbble.com/users/874431/screenshots/2283494/hamburgerday3.gif");
+    background-size:cover;
+}
+
+.borderSelect{
+    border:solid 2px;
+    padding:10px;
+    /* background-color:red; */
+    /* background-image: url("https://www.asouthernsoul.com/wp-content/uploads/2017/08/oven-bacon-closeWM.jpg");
+    background-size: cover; */
+    background-color:tan;
+}
+
+.change-burger {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding-left:10px;
+    padding-right:10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.change-burger {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+}
+
+.change-burger:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+.button{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width:50%;
+    margin-left:25%;
+    text-align: center;
+}
+
+#button{
+    margin-left:42%;
+}
+
+.h4{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Anton);
+
+.unbreakable-container
+{
+    text-align: center;
+}
+
+.unbreakable
+{
+    font-family: 'Anton', sans-serif;
+    line-height: 1;
+
+    letter-spacing: -.07em;
+
+    color: blue;
+}
+
+.ks
+{
+    font-family: 'Anton', sans-serif;
+    font-size: 65px;
+    line-height: 1;
+
+    margin-top: -11px;
+
+    -webkit-transition: all .3s ease-in-out;
+            transition: all .3s cubic-bezier(.190, 1.000, .220, 1.000) 3s;
+    -webkit-transform: translateX(-1000%);
+        -ms-transform: translateX(-1000%);
+            transform: translateX(-1000%);
+    letter-spacing: -1px;
+    text-transform: uppercase;
+
+    color: #fc0;
+}
+
+.animate .ks
+{
+    -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+            transform: translateX(0);
+}
+
+span
+{
+    font-family: 'Anton', Helvetica, sans-serif;
+    font-size: 60px;
+
+    text-transform: uppercase;
+
+    opacity: 0;
+    color: blue;
+
+    filter: alpha(opacity=0);
+}
+
+.able
+{
+    -webkit-transition: all .3s cubic-bezier(.190, 1.000, .220, 1.000) 2.3s;
+            transition: all .3s cubic-bezier(.190, 1.000, .220, 1.000) 2.3s;
+    letter-spacing: -.07em;
+}
+
+.break
+{
+    -webkit-transition: all .3s ease-in-out 2s;
+            transition: all .3s ease-in-out 2s;
+    letter-spacing: -.07em;
+}
+
+.un
+{
+    -webkit-transition: all .3s ease-in-out 1.7s;
+            transition: all .3s ease-in-out 1.7s;
+    letter-spacing: -.07em;
+}
+
+.animate .un
+{
+    font-size: 50px;
+
+    -webkit-transform: scale(1.5,1.5);
+        -ms-transform: scale(1.5,1.5);
+            transform: scale(1.5,1.5);
+
+    opacity: 1;
+
+    filter: alpha(opacity=100);
+}
+
+.animate .break
+{
+    font-size: 50px;
+
+    -webkit-transform: scale(1.5,1.5);
+        -ms-transform: scale(1.5,1.5);
+            transform: scale(1.5,1.5);
+
+    opacity: 1;
+
+    filter: alpha(opacity=100);
+}
+
+.animate .able
+{
+    font-size: 50px;
+
+    -webkit-transform: scale(1.5,1.5);
+        -ms-transform: scale(1.5,1.5);
+            transform: scale(1.5,1.5);
+
+    opacity: 1;
+
+    filter: alpha(opacity=100);
+}

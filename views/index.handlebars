@@ -1,0 +1,42 @@
+<div class="container">
+
+
+  <div class="unbreakable-container">  
+  <div class="unbreakable">
+    <span class="un">WEL</span><span class="break">COME</span><span class="able"> TO</span>
+  </div>
+  <div class="ks">BURGER TOWN</div>
+</div>
+</br>
+
+  <div id="box-1">
+    <div class="row">
+      <div class="col-md-6">
+        <h4 class="header">Burgers</h4>
+
+       
+        <ul style="list-style-type:none" class="borderSelect">
+          {{#each burgers}} {{#unless devoured}} {{> burgers/burger-block devour=true}} {{/unless}} {{/each}}
+        </ul>
+      
+      </div>
+      <div class="col-md-6">
+        <h4 class="header">Trash Can</h4>
+
+      
+        <ul style="list-style-type:none" class="borderSelect">
+          {{#each burgers}} {{#if devoured}} {{> burgers/burger-block devour=false}} {{/if}} {{/each}}
+        </ul>
+    
+      </div>
+    </div>
+
+    <form>
+      <div class="form-group button">
+        <textarea class="form-control" id="burger" rows="3" placeholder="Add A Burger"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary" id="button">Submit</button>
+    </form>
+  </div>
+
+</div>
