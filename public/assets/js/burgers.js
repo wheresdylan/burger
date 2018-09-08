@@ -1,4 +1,29 @@
+// var changeHandler = function (e) {
+//     console.log ($.trim(this.value));
+//     if ($.trim(this.value)){
+//         $("input[type=submit]").removeAttr("disabled");
+//     } else {
+//         $("input[type=submit]").attr("disabled", "disabled");        
+//     }
+// };
+
+// $("input[type=text]").keyup(
+//     changeHandler
+// )​
+
+
+
+
 $(function() {
+
+    $('#burger').keyup(function(){
+        if($(this).val().length !=0)
+            $('#button').attr('disabled', false);            
+        else
+            $('#button').attr('disabled',true);
+    })
+
+    
     $("#button").on("click", function(){
         event.preventDefault();
 
